@@ -1,0 +1,160 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: "Sacramento", cursive;
+font-weight: 800;
+font-style: normal;
+}
+nav{
+    border-bottom: 2px solid black;
+    background-color:plum;
+    /* background-image: url(\Users\Lenovo\Downloads\avatar.jpg); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 99vw;
+}
+#logo {
+    height: 100%;
+    width: 130px;
+    border-radius: 10px;
+    border-style:groove;
+}
+#logobox{
+    height: 100%;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+}
+#search_container{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+#search_container > input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    
+}
+#link{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+}
+
+#link > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    row-gap: 20px;
+    column-gap: 14px;
+    padding-left:62px ;
+    background-color:pink;
+    padding-top: 30px;
+    
+}
+.card{
+    height: 480px;
+    background-color:plum;
+    width: 400px;
+    border-radius: 27px 27px;
+    margin-left: 0px;
+    box-shadow: 10px 30px  10px  rgb(59, 1, 59);
+ 
+
+}
+.img_container >img{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.img_container{
+    height: 60%;
+    width:100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.main_container{
+    font-family:cursive;
+
+}
+.viewcontainer{
+    height: 40px;
+    width: 90%;
+    background-color: rgb(238, 147, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.viewcontainer > a{
+    height: 40px;
+    width: 370px;
+    padding-left: 35%;
+}
+
+#popup{
+    height: 68vh;
+    width: 51vw;
+    background-color:rgba(241, 137, 250, 0.932);
+    position: fixed;
+    top:150px;
+    left:355px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 20px ;
+    border :5px solid black
+    
+    
+}
+#popup iframe{
+    margin-left: 7px;
+    width: 49vw;
+    border-radius: 10% brown;
+}
+#popup h2{
+    margin-left: 266px;
+}
+#btnlink{
+    width: 200px;
+    height: 40px;
+    margin-left: 498px;
+}
+#btn{
+
+    background-color: red;
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 20px;
+    height: 30px;
+    width: 101px;
+    margin-left: 43vw;
+    border-radius: 50px 100px ;
+}

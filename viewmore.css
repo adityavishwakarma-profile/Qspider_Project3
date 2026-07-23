@@ -1,0 +1,119 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: "Sacramento", cursive;
+font-weight: 800;
+font-style: normal;
+}
+nav{
+    border-bottom: 2px solid black;
+    background-color:plum;
+    /* background-image: url(\Users\Lenovo\Downloads\avatar.jpg); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 99vw;
+}
+#logo {
+    height: 100%;
+    width: 130px;
+    border-radius: 10px;
+    border-style:groove;
+}
+#logobox{
+    height: 100%;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+}
+#search_container{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+#search_container > input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    
+}
+#link{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+}
+
+#link > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.box{
+    display: flex;
+    height: 500px;
+}
+
+.leftBox{
+    margin-top: 30px;
+    background-color:palevioletred;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    margin-left: 20px;
+    border-radius: 20px 0px 0px 80px;
+    
+}
+.rightBox{
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: plum;
+    width:80%;
+    height: 440px;
+    border-radius: 0px 20px 20px 0px;
+}
+.review_card{
+    background-color:plum;
+    height: 200px;
+    width: 90%;
+    margin-left: 75px;
+    padding-left: 25px;
+    border-radius: 20px 30px;
+}
+.reviewHead{
+    margin-top: 10px;
+    background-color:pink;
+    height: 80px;
+    width: 100%;
+    /* padding-left: 10px; */
+    border-radius: 20px 30px;
+}
+#newReview{
+    background-color: darkkhaki;
+    margin-left: 60px;
+    height: 100px;
+    width:90% ;
+    margin-top: 20px;
+
+}
+#newReview + button{
+    height: 40px;
+    width: 500px;
+    background-color: red;
+    margin-left: 460px;
+    margin-top: 20px;
+}
